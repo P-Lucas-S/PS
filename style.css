@@ -90,12 +90,16 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
 }
 
 section > p{
     padding-bottom: 2em;
+}
+
+section>ul{
+    padding-left: 30px;
 }
 
 section.normal{
@@ -110,6 +114,7 @@ section.imagem{
     background-size: cover;
     background-position: right center;
     background-attachment: fixed;
+    text-align: center;
 }
 
 section.imagem > p{
@@ -117,6 +122,7 @@ section.imagem > p{
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 1px 1px 0px black;
+    max-width: 90vw;
 }
 
 section#img01{
