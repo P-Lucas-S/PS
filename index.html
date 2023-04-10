@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto cordel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Monopolius SA.</h1>
+        <p>Por <a href="https://github.com/P-Lucas-S" target="_blank">Pedro</a></p>
+    </header>
+
+    <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+
+    <section class="normal">
+        <p>
+            A Monopolius SA. criou um dispositivo motorizado a vapor capaz de computar muito rapidamente, e está buscando mentes brilhantes para desenvolver produtos para ela.
+        </p> 
+    </section>
+
+    <section class="imagem" id="img01">
+        <p>
+            Nós somos a Monopolius SA, uma empresa de tecnologia inovadora que desenvolveu uma máquina milagrosa capaz de computar muito rapidamente. Com a nossa máquina a vapor, podemos revolucionar a maneira como as pessoas trabalham e vivem, e estamos procurando pessoas talentosas para nos ajudar a desenvolver novos produtos.
+        </p>
+    </section>
+
+    <section class="normal">
+        <p>
+            Nossa máquina a vapor pode mudar o mundo com suas 1001 utilidades! Aqui estão apenas algumas ideias de como nossa máquina pode ser usada:
+        </p>
+
+
+        <p>
+            <ul>
+                <li>Na indústria de energia, para tornar a produção de energia mais eficiente e sustentável</li>
+                <li>Na indústria de transporte, para tornar os veículos mais eficientes e sustentáveis</li>
+                <li>Na indústria de saúde, para acelerar a descoberta de novos tratamentos e medicamentos</li>
+                <li>Na indústria de finanças, para tornar a análise de dados mais rápida e precisa</li>
+            </ul>
+        </p>
+    </section>
+
+    <section class="imagem" id="img02">
+        <p>
+            Se você é uma mente brilhante que está interessada em trabalhar conosco, entre em contato conosco! Estamos procurando pessoas talentosas para nos ajudar a desenvolver novos produtos e inovações.
+        </p>
+    </section>
+
+    <section class="normal">
+        <p>
+            Entre em contato conosco: <br>
+            Endereço: [endereço da empresa] <br>
+            Telefone: [número de telefone] <br>
+            E-mail: [e-mail da empresa] <br>
+            Siga-nos nas redes sociais: <br>
+            [links para as redes sociais da empresa]
+        </p>
+
+        <p>
+            Estamos sempre procurando novas ideias para melhorar nossa máquina. Se você tem uma ideia para uma nova funcionalidade ou programa, por favor, compartilhe conosco! Use a caixa de sugestão abaixo para enviar suas ideias.
+
+            <form action="cadastro.php" method="get">
+                <p>
+                    <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Envie seu texto aqui"></textarea>
+                </p>
+        
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </form>
+        </p>
+    </section>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{ 
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
